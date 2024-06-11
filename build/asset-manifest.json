@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd0894fd.css",
+    "main.js": "/static/js/main.afecaa0e.js",
+    "static/js/453.0c60e47e.chunk.js": "/static/js/453.0c60e47e.chunk.js",
+    "static/media/accounting.jpg": "/static/media/accounting.b68ff168619dd5cecf58.jpg",
+    "static/media/firstsection.jpg": "/static/media/firstsection.ed80a888147826c1c39a.jpg",
+    "static/media/consult.jpg": "/static/media/consult.f1e3f6efe618b2df1fca.jpg",
+    "static/media/secondsection.jpg": "/static/media/secondsection.e769f497ca27729d9717.jpg",
+    "static/media/tax.jpg": "/static/media/tax.16737eaf9ba8bcd71719.jpg",
+    "static/media/logo_lamia.png": "/static/media/logo_lamia.7e34becfed1c60fe42c3.png",
+    "index.html": "/index.html",
+    "main.fd0894fd.css.map": "/static/css/main.fd0894fd.css.map",
+    "main.afecaa0e.js.map": "/static/js/main.afecaa0e.js.map",
+    "453.0c60e47e.chunk.js.map": "/static/js/453.0c60e47e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd0894fd.css",
+    "static/js/main.afecaa0e.js"
+  ]
+}
