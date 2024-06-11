@@ -23,7 +23,7 @@ const Footer = () => {
                     <li className='text-2sm text-white'>About Us</li>
                 </ul>
                 <div className='flex '>
-                    <img src={picpa_logo} className='mr-2' height="40px"/>
+                    <img src={picpa_logo} alt='' className='mr-2' height="40px"/>
                     <img src={aicpa_logo} alt="" height="40px"/>
                 </div>
             </div>

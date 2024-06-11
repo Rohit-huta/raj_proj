@@ -11,7 +11,7 @@ const NavBar = () => {
   }
   return (
     <nav className='nav flex justify-between items-center'>
-        <img src={Logo} className='logo'/>
+        <img src={Logo} className='logo' alt=''/>
 
         {/* navitems */}
         <div>
