@@ -1,38 +1,365 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hr {
+  width: 75vw;
+  border-bottom: 1px solid #ececec;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hr-2 {
+  width: 40px;
+  border-bottom: 1px solid rgb(23, 116, 222);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h5 {
+  margin: 0;
+}
+
+
+/* COLORS */
+
+.bg-gray {
+  background-color: #ededed;
+}
+
+.bg-brown {
+  background-color: #b6977d;
+}
+
+
+.text-blue {
+  color: rgb(23, 116, 222);
+}
+
+.bg-blue {
+  background-color: rgb(23, 116, 222);
+}
+
+/*  */
+.flex {
+  display: flex;
+}
+
+.flex-col {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.justify-center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.justify-between {
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.justify-end {
+  justify-content:end;
+}
+
+.justify-start {
+  justify-content:start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: start;
+}
+
+.items-end {
+  align-items: end;
+}
+
+
+
+
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.p-08 {
+  padding: 8px;
+}
+
+
+.p-1 {
+  padding: 10px;
+}
+
+
+
+.p-2 {
+  padding: 20px;
+}
+
+
+.p-3 {
+  padding: 30px;
+}
+
+.py-4{
+  padding: 40px 0;
+}
+
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+
+.mr-1 {
+  margin-right: 10px;
+}
+
+.mr-2{
+  margin-right: 20px;
+}
+  
+.mr-3 {
+  margin-right: 30px;
+}
+
+/* TEXTS */
+.text-bold{
+  font-weight: bold;
+}
+
+.text-2xl {
+  font-size: 50px;
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+.text-2sm{
+  font-size: 10px;
+}
+.text-white {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-end {
+  text-align: end;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+
+/* SPACING */
+.h-8 {
+  height: 80vh;
+}
+
+.h-5 {
+  height: 50vh;
+}
+
+.h-90vh {
+  height: 90vh;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-30{
+  width: 30vw;
+}
+
+.w-50 {
+  width: 50vw;
+}
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+
+/* Image  */
+.object-cover {
+  object-fit: cover;
+}
+.object-contain {
+  object-fit: contain;
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* NAVBAR  */
+
+.nav {
+  height: 80px;
+}
+
+
+.logo {
+  height: 60px;
+}
+
+.menus {
+  width: 150%;
+  padding: 0;
+}
+
+.menus-f {
+  width: 30%;
+  padding: 0;
+}
+
+
+
+.drop-down {
+  position: absolute;
+  padding: 10px 20px;
+}
+
+
+
+/* FIRST SECTION */
+.fs-img {
+  background-image: url('./assets/firstsection.jpg');
+  background-size: cover;
+}
+
+
+/* SECOND SECTION */
+
+.vl {
+  height: 100px;
+  border-left: 1px solid #d6d6d6;
+}
+
+.second-sec-img{
+  height: 300px;
+  width: 300px;
+}
+
+.second-s-desc {
+  height: 300px;
+}
+
+.services-grey {
+  height: 30vh;
+  width: 80%;
+}
+
+.services-white {
+  height: 60vh;
+}
+
+
+.service-img {
+  height: 200px;
+  width: 280px;
+  bottom: 70%;
+  left: 3.4%;
+}
+
+.card {
+  box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.42);
+  width: 300px;
+  height: 130px;
+}
+.card-nav {
+  box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.42);
+  width: 300px;
+  height: 130px;
+  background-color: white;
+}
+
+
+.arrow-bg {
+  position: absolute;
+  background-color: #b6977d;
+  padding: 8px;
+  border-radius: 6px;
+  top: 90%;
+  right: 10%;
+}
+
+
+/* FOURTH SECTION */
+
+input {
+  width: 180px;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 6px;
+}
+
+textarea {
+  border: 0;
+  padding: 10px 6px;
+  resize: none;
+  width: calc(100% - 20px); /* Adjust width to account for the grid padding */
+  margin-left: 10px; /* Remove margin */
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  gap: 10px 20px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.btn {
+
+  color: #fff;
+  border: 0;
+  padding: 14px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  width: calc(100% - 20px); 
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+
+
+/* FOOTER */
+
+.bg-white-f {
+  background-color: #fff;
+  height: 100px;
 }
